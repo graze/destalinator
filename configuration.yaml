@@ -32,10 +32,20 @@ log_channel: "destalinator-log"
 ignore_channels:
   - destalinator-log
   - destalinator-control
+  - google-news
+  - data-alerts
+  - data-triage
+  - github
+  - infra-bots
+  - raygun
+  - test
+  - twitter
+  - trains
 
 # Regular expression patterns for additional channels to ignore during archiving
-# ignore_channel_patterns:
-#   - ^zmeta-
+ignore_channel_patterns:
+  - ^graze-
+  - ^jira-
 
 # Users to ignore when considering if a channel is stale
 ignore_users:
