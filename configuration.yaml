@@ -11,10 +11,10 @@ api_token_env_varname: API_TOKEN
 output_debug_env_varname: DESTALINATOR_SLACK_VERBOSE
 
 # Days of silence before we warn a channel it's going to be archived
-warn_threshold: 30
+warn_threshold: 60
 
 # Days of silence before we auto-archive a channel
-archive_threshold: 60
+archive_threshold: 90
 
 # Do not archive before this date
 earliest_archive_date: "2016-01-28"
